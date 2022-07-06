@@ -1,0 +1,27 @@
+body {background-color: teal;}
+
+h1 {color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+}
+
+header {display: flex;
+        justify-content:center;
+        }
+
+h3 {color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px
+    }
+
+img {margin-left: 90px;}
+
+input {margin-left: 300px;
+    size: 100px;        
+}
+
+fieldset{
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+}

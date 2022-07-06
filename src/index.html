@@ -5,10 +5,45 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+  
   <body>
-    <header></header>
-    <main></main>
+
+    <div id="first-page">
+      <header>
+          <iframe src="https://giphy.com/embed/UU5nZHiM86H37VBAcU" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <h1>¡YA CASI TERMINAS TU COMPRA!</h1>
+      </header>
+      
+      <main>
+        <fieldset>
+          <h3>Ingresa el número de tu tarjeta para continuar con el pago</h3>
+          <img src="business-mastercard-1280x720.png" alt="card Picture" style="width:550px; height:300px;">
+          <input type="text" id="card-number" width="100" height="20">
+        <button onclick="goToSecondPage()">Siguente</button>
+        <br>
+      </fieldset>
+      </main>
+    </div>
+
+    <div id="second-page" style="display: none;">
+      <h1>¡YA CASI TERMINAS TU COMPRA!</h1>
+      <iframe src="https://giphy.com/embed/ifXL0OYTr5KkMml3Kg" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <h3>Tarjeta de crédito válida</h3>
+      <button>PAGAR</button>
+    </div>
+
+    <div id="third-page" style="display: none;">
+      <h1>IDENTIFICAMOS UN PROBLEMA</h1>
+      <iframe src="https://giphy.com/embed/jIW0wm3qCw7FuTkr1N" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <h3>Tarjeta de crédito inválida</h3>
+      <button>VOLVER</button>
+    </div>
+
+
     <footer></footer>
     <script src="index.js" type="module"></script>
+  
   </body>
+  
 </html>
