@@ -11,17 +11,26 @@ header {display: flex;
 
 h3 {color: white; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 100px
+    text-align: center;
     }
 
-img {margin-left: 90px;}
+img {margin-left: 20px;}
 
-input {margin-left: 300px;
-    size: 100px;        
+label {margin-left: 180px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 fieldset{
     width: 400px;
     height: 400px;
-    margin-left: 400px;
+    margin-left: 450px;
 }
+
+.answers {
+  text-align: center;
+}
+
+#hidden-card-number {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white; 
+}
+

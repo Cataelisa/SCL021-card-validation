@@ -19,29 +19,35 @@
         <fieldset>
           <h3>Ingresa el número de tu tarjeta para continuar con el pago</h3>
           <img src="business-mastercard-1280x720.png" alt="card Picture" style="width:550px; height:300px;">
-          <input type="text" id="card-number" width="100" height="20">
-        <button onclick="goToSecondPage()">Siguente</button>
+          <label style="color: white;"> Número de tarjeta:</label>
+          <input type="text" id="card-number" placeholder="0000 0000 0000 0000" minlength="16" maxlength="16">
+        <button id="button" type="button">Siguente</button>
         <br>
       </fieldset>
       </main>
     </div>
 
-    <div id="second-page" style="display: none;">
+    <div class= "answers" id="second-page" style= "display: none;">
       <h1>¡YA CASI TERMINAS TU COMPRA!</h1>
-      <iframe src="https://giphy.com/embed/ifXL0OYTr5KkMml3Kg" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-      <h3>Tarjeta de crédito válida</h3>
+      <iframe src="https://giphy.com/embed/ifXL0OYTr5KkMml3Kg" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <h3>Tu tarjeta de crédito Nº:</h3> 
+      <p id="hidden-card-number"></p>
+      <h3>es válida.</h3>
       <button>PAGAR</button>
     </div>
 
-    <div id="third-page" style="display: none;">
+    <div class= "answers" id="third-page" style= "display: none;">
       <h1>IDENTIFICAMOS UN PROBLEMA</h1>
-      <iframe src="https://giphy.com/embed/jIW0wm3qCw7FuTkr1N" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-      <h3>Tarjeta de crédito inválida</h3>
+      <iframe src="https://giphy.com/embed/jIW0wm3qCw7FuTkr1N" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <h3>Tu tarjeta de crédito Nº:</h3> 
+      
+      <h3>es inválida.</h3>
       <button>VOLVER</button>
     </div>
 
 
     <footer></footer>
+  
     <script src="index.js" type="module"></script>
   
   </body>
