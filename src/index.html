@@ -6,48 +6,51 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  
   <body>
 
     <div id="first-page">
       <header>
-          <iframe src="https://giphy.com/embed/UU5nZHiM86H37VBAcU" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <iframe src="https://giphy.com/embed/UU5nZHiM86H37VBAcU" width="180" height="180" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
           <h1>¡YA CASI TERMINAS TU COMPRA!</h1>
       </header>
       
-      <main>
+      <main id="first-page">
         <fieldset>
           <h3>Ingresa el número de tu tarjeta para continuar con el pago</h3>
           <img src="business-mastercard-1280x720.png" alt="card Picture" style="width:550px; height:300px;">
           <label style="color: white;"> Número de tarjeta:</label>
-          <input type="text" id="card-number" placeholder="0000 0000 0000 0000" minlength="16" maxlength="16">
+          <input type="text" id="card-number" placeholder="•••• •••• •••• ••••" maxlength="16">
         <button id="button" type="button">Siguente</button>
         <br>
       </fieldset>
       </main>
     </div>
-
+    
     <div class= "answers" id="second-page" style= "display: none;">
-      <h1>¡YA CASI TERMINAS TU COMPRA!</h1>
-      <iframe src="https://giphy.com/embed/ifXL0OYTr5KkMml3Kg" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <fieldset id="marcos">
+      <h1 class="div-title">¡YA CASI TERMINAS TU COMPRA!</h1>
+      <iframe src="https://giphy.com/embed/ifXL0OYTr5KkMml3Kg" width="180" height="180" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
       <h3>Tu tarjeta de crédito Nº:</h3> 
-      <p id="hidden-card-number"></p>
-      <h3>es válida.</h3>
+      <p id="valid-number"></p>
+      <h3>ES VÁLIDA.</h3>
       <button>PAGAR</button>
+      </fieldset>
     </div>
+  
 
     <div class= "answers" id="third-page" style= "display: none;">
-      <h1>IDENTIFICAMOS UN PROBLEMA</h1>
-      <iframe src="https://giphy.com/embed/jIW0wm3qCw7FuTkr1N" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <fieldset id="marcos">
+      <h1 class="div-title">IDENTIFICAMOS UN PROBLEMA</h1>
+      <iframe src="https://giphy.com/embed/jIW0wm3qCw7FuTkr1N" width="180" height="180" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
       <h3>Tu tarjeta de crédito Nº:</h3> 
-      
-      <h3>es inválida.</h3>
-      <button>VOLVER</button>
+      <p id="invalid-number"></p>
+      <h3>ES INVÁLIDA.</h3>
+      <button id="validate-again" type="button">VOLVER</button>
+    </fieldset>
     </div>
 
 
     <footer></footer>
-  
     <script src="index.js" type="module"></script>
   
   </body>

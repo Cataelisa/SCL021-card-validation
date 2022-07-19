@@ -25,12 +25,23 @@ fieldset{
     height: 400px;
     margin-left: 450px;
 }
+#marcos{
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 90px;
+}
+.div-title{ 
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
 
 .answers {
   text-align: center;
+  margin-top: 200px;
 }
 
-#hidden-card-number {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: white; 
 }
 
