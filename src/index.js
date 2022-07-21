@@ -40,18 +40,28 @@ function goToThirdPage(creditCardNumber){
 }
 
 function response(){
+
     //bring the value of validator function
     let creaditCardNumber = document.getElementById('card-number');
     let cardNumberValue = creaditCardNumber.value
 
+     //Ask users to enter a card number in case they did not
+ if (cardNumberValue == '') {
+    alert ('Debes ingresar el número de tu tarjeta de crédito');
+    return
+  }
+  //Ask users to enter a card number in case they did not
+  if (cardNumberValue.length < 16) {
+  alert ('Debes ingresar los 16 dígitos de tu tarjeta de crédito');
+  }
+  else{
     //if the card is valid, send the user to the second page
     if (validator.isValid(cardNumberValue)){
         goToSecondPage(cardNumberValue)
     } else {  //if the card is invalid, send the user to the third page 
         goToThirdPage(cardNumberValue)
-        
     }
-    
+} 
 }
 
 function goToFirstPage(){

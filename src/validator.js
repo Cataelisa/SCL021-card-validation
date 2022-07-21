@@ -3,16 +3,6 @@ const validator = {
 // To get the credit card number (input) and validate it
 isValid: function (creditCardNumber){
 
- //Ask users to enter a card number in case they did not
- if (creditCardNumber == '') {
-  alert ('Debes ingresar el número de tu tarjeta de crédito');
-  return
-}
-//Ask users to enter a card number in case they did not
-if (creditCardNumber.length < 16) {
-alert ('Debes ingresar los 16 dígitos de tu tarjeta de crédito');
-return
-}
 
   let toBeValidated = creditCardNumber.split("");
   let lunhNumber = toBeValidated.reverse();
