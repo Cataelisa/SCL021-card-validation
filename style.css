@@ -1,0 +1,47 @@
+body {background-color: teal;}
+
+h1 {color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+}
+
+header {display: flex;
+        justify-content:center;
+        }
+
+h3 {color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+
+img {margin-left: 20px;}
+
+label {margin-left: 180px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+fieldset{
+    width: 400px;
+    height: 400px;
+    margin-left: 450px;
+}
+.marcos{
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 90px;
+}
+.div-title{ 
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.answers {
+  text-align: center;
+  margin-top: 200px;
+}
+
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white; 
+}
+
