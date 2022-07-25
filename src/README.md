@@ -28,8 +28,7 @@ El proyecto **Card Validator** es la sección de una página web que puede ser i
    
 **PRIMER PROTOTIPO** 
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/Card Validation .png" alt="" width="550px" height=800px/>
-
+[![Card-Validation.png](https://i.postimg.cc/FzHqqKcm/Card-Validation.png)](https://postimg.cc/bD43Sp3F)
 
 **Feedback recibido:**
 Repensar el objetivo de la página y ver quénes serán los usuarios.  
