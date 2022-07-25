@@ -6,15 +6,15 @@ El proyecto **Card Validator** es la sección de una página web que puede ser i
     
 **IMAGEN FINAL DEL PROYECTO**
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/Imgen final.png" alt="imagen final del projecto" width="550px" height=350px/>
+[![Imgen-final.png](https://i.postimg.cc/XNrvx639/Imgen-final.png)](https://postimg.cc/vDdMHj4m)
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/sin input.png" alt="imagen sin input" width="550px" height=350px/>
+[![sin-input.png](https://i.postimg.cc/8kxz0XP9/sin-input.png)](https://postimg.cc/c6MWKm3B)
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/con menos numeros.png" alt="imagen con menos numeros" width="550px" height=350px/>
+[![con-menos-numeros.png](https://i.postimg.cc/mkzK9SvF/con-menos-numeros.png)](https://postimg.cc/Mfws21KW)
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/Captura de Pantalla 2022-07-21 a la(s) 13.10.31 2.png" alt="imagen tarjeta valida" width="550px" height=350px/>
+[![Captura-de-Pantalla-2022-07-21-a-la-s-13-10-31-2.png](https://i.postimg.cc/qRZ9gF5T/Captura-de-Pantalla-2022-07-21-a-la-s-13-10-31-2.png)](https://postimg.cc/Vrn7VKwG)
 
- <img src="/Users/catalinamorales/Documents/LABORATORIA/PROJECTS/SCL021-card-validation/src/Imágenes/inválida.png" alt="imagen taarjeta inválida" width="550px" height=350px/>
+[![inv-lida.png](https://i.postimg.cc/BbrkBK37/inv-lida.png)](https://postimg.cc/8fbZ1sjL)
 
   
 
